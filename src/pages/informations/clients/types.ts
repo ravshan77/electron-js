@@ -1,0 +1,21 @@
+export type ClientsType = {
+    id: number,
+    branch_id: number,
+    branch_name: string,
+    name: string,
+    description: string | null,
+    passport_series: string | null,
+    passport_number: string | null,
+    when_given: string | null,
+    address: string | null,
+    birthday: string | null,
+    pnfl: string | null,
+    phone: string | null,
+    phone_additional: string | null,
+    responsible_worker: string | null,
+    image: string | null,
+    image_pasport: string | null,
+    image_pasport_back: string | null,
+    type: string | null,
+    date: string
+}
